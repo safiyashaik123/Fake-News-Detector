@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+venv/
+env/
+*.env
+*.pkl  # Remove this if you want to commit your model files
