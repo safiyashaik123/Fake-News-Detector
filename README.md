@@ -1,43 +1,66 @@
-# Fake-News-Detector
-# Project Description
-A machine learning model that classifies news articles as real or fake using Natural Language Processing (NLP) techniques and various classification algorithms.
+# 📰 Fake News Detection
 
-# Project Overview
-This project demonstrates how to build a fake news classifier using Python and machine learning. The notebook shows the complete workflow from data loading and preprocessing to model training and evaluation.
+## 📌 Project Overview
+This project aims to classify news articles as real or fake using machine learning techniques. It processes text data, applies Natural Language Processing (NLP) techniques, and trains a model to detect fake news.
 
-# Dataset
-The project uses the WELFake_Dataset.csv which contains:
+---
+## 🚀 Features
+- 📝 **Text Preprocessing**: Tokenization, Stopword Removal, Lemmatization.
+- 🔍 **Feature Engineering**: TF-IDF Vectorization.
+- 🤖 **Machine Learning Models**: Logistic Regression, Naïve Bayes, Random Forest, etc.
+- 📊 **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score.
 
-Text content of news articles
-
-Labels (1 for fake, 0 for real)
-## 📋 Requirements
-
-Essential Python packages:
-```text
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-nltk>=3.6.0
-jupyter>=1.0.0
-```
-
-## 📦 Installation
-
-**Step 1:Clone the repository**
+---
+## 🛠 Installation Guide
+### 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/yourusername/fake-news-detection.git
-cd fake-news-detection
-
+git clone https://github.com/safiyashaik123/Fake_News_Detection.git
+cd Fake_News_Detection
 ```
 
-**Step 2: Install dependencies**
+### 2️⃣ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-# Results
-Logistic Regression performed best with 94.7% accuracy
 
-Confusion matrix shows good balance between true positives and true negatives
+### 3️⃣ Run the Jupyter Notebook:
+```bash
+jupyter notebook "fake news project.ipynb"
+```
+
+---
+## 📂 Project Structure
+```
+📁 Fake_News_Detection
+│── fake news project.ipynb  # Jupyter Notebook with code and analysis
+│── dataset.csv               # Dataset containing real and fake news
+│── requirements.txt          # Dependencies
+│── README.md                 # Project documentation
+```
+
+---
+## 🏗 How It Works
+1. **Data Loading**: Reads dataset containing labeled real and fake news articles.
+2. **Text Preprocessing**: Cleans and tokenizes text, removes stopwords.
+3. **Feature Extraction**: Converts text into numerical features using TF-IDF.
+4. **Model Training**: Trains machine learning models for classification.
+5. **Evaluation**: Uses accuracy, precision, recall, and F1-score to assess performance.
+
+---
+## ✨ Tech Stack
+- **Python** (Pandas, NumPy, Scikit-Learn, NLTK)
+- **Machine Learning** (Logistic Regression, Naïve Bayes, Random Forest)
+- **Natural Language Processing** (TF-IDF, Text Preprocessing)
+
+---
+## 🤝 Contributing
+Pull requests are welcome! If you want to contribute, feel free to fork the repository and submit a PR.
+
+---
+## 📜 License
+This project is open-source and available under the **MIT License**.
+
+---
+## 📧 Contact
+If you have any questions or suggestions, feel free to reach out via **GitHub Issues**.
+
